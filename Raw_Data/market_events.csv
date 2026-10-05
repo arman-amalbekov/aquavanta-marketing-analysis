@@ -1,0 +1,11 @@
+event_id,event_name,start_date,end_date,scope,event_type,description
+EVT001,Product launch burst,2023-01-01,2023-01-21,All,Demand/Traffic,Launch publicity creates a strong but decaying traffic burst.
+EVT002,Marketplace listing outage,2023-12-12,2023-12-12,Marketplace,Traffic,A partial listing outage suppresses marketplace visits.
+EVT003,Influencer campaign,2024-04-15,2024-04-24,"Delhi, Mumbai, Bengaluru D2C",Marketing,A creator campaign increases D2C traffic and discounting.
+EVT004,North-west heatwave,2024-05-10,2024-05-25,"Delhi, Ahmedabad",Weather/Demand,Exceptional heat increases hydration-product demand.
+EVT005,Supplier component delay,2024-06-10,2024-06-30,All,Supply,A delayed electronic cap component increases replenishment lead time.
+EVT006,Battery-cap quality issue,2024-08-01,2024-08-31,"Coral, Sage",Quality,A defective production batch raises returns and lowers review scores.
+EVT007,Targeted product recall,2024-09-01,2024-09-15,"Coral, Sage",Demand/Quality,A transparent recall temporarily reduces demand for affected colours.
+EVT008,Western courier strike,2025-07-10,2025-07-20,"Mumbai, Pune",Delivery,"Courier capacity falls, causing delays and cancellations."
+EVT009,Competitor product launch,2025-12-01,2025-12-31,All,Competition,A lower-priced competitor puts pressure on conversion.
+EVT010,Counter-promotion,2025-12-15,2025-12-31,All,Pricing/Marketing,AquaVanta responds with a time-limited promotion.
