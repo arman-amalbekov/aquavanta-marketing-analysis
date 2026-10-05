@@ -82,16 +82,16 @@ This structure keeps the analytical model simple, reduces duplication, and suppo
 
 ## Measures
 
-The report uses DAX (Data Analysis Expressions — язык аналитических выражений Power BI; используется для создания мер и вычисляемой логики) measures to calculate marketing efficiency, engagement, sales performance, and stock availability metrics.
+The report uses DAX (Data Analysis Expressions) measures to calculate marketing efficiency, engagement, sales performance, and stock availability metrics.
 
 Key measures include:
 
 - `Ad Spend` — total marketing spend.
 - `Total Impressions` — total number of ad impressions.
 - `Total Clicks` — total number of ad clicks.
-- `CTR (Click-Through Rate — коэффициент кликабельности; доля показов, завершившихся кликом)`.
-- `CPC (Cost per Click — стоимость одного клика; рекламные расходы, делённые на количество кликов)`.
-- `CPM (Cost per Mille — стоимость тысячи показов; рекламные расходы на 1,000 показов)`.
+- `CTR (Click-Through Rate)` — share of impressions that resulted in clicks.
+- `CPC (Cost per Click)` — marketing spend divided by total clicks.
+- `CPM (Cost per Mille)` — marketing spend per 1,000 impressions.
 - `Total Product Page Views` — total product page views.
 - `Total Add to Cart` — total add-to-cart actions.
 - `Cart to View Ratio` — share of product page views that resulted in an add-to-cart action.
@@ -182,7 +182,7 @@ The analysis includes:
 
 - The analysis does not use purchase-level advertising attribution, so marketing spend cannot be directly tied to individual purchases.
 
-- Metrics such as CAC (Customer Acquisition Cost — стоимость привлечения клиента; расходы на привлечение одного нового клиента), LTV (Customer Lifetime Value — пожизненная ценность клиента; ожидаемая ценность клиента за весь период взаимодействия) and proven ROAS (Return on Ad Spend — возврат на рекламные расходы; доход, напрямую приписанный рекламе, относительно затрат на неё) cannot be reliably calculated from the available data.
+- Metrics such as CAC (Customer Acquisition Cost), LTV (Customer Lifetime Value), and proven ROAS (Return on Ad Spend) cannot be reliably calculated from the available data.
 
 - Campaign comparisons are descriptive rather than causal. Changes observed during campaign periods may also be influenced by calendar effects, stock availability, competitor activity, and other external events.
 
